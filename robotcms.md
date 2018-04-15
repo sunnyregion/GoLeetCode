@@ -18,5 +18,5 @@ CMS基本类、音频、视频的CURD。数据信息基本包括id、title、des
 
 |序号|字段名|类型|是否必填|解释|
 |--:|:--:|:--|:--:|:--|
-|1|id|int| - [X] |id|
+|1|id|int| - [ ] |id|
 |2|title|string|required|标题|
