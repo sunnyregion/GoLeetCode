@@ -18,5 +18,18 @@ CMS基本类、音频、视频的CURD。数据信息基本包括id、title、des
 
 |序号|字段名|类型|是否必填|解释|
 |--:|:--:|:--|:--:|:--|
-|1|id|int| - [ ] |id|
+|1|id|int| required|id|
 |2|title|string|required|标题|
+|3|describe|string|optional|内容摘要|
+|4|keyword|string|required|关键词，主要搜索依靠keyword，关键词之间用空格分割|
+|5|content|text|详细内容，此处为富文本|
+
+## 音频、视频数据结构（这里是两个表，但是结构相同）
+
+|序号|字段名|类型|是否必填|解释|
+|--:|:--:|:--|:--:|:--|
+|1|id|int| required|id|
+|2|title|string|required|标题|
+|3|describe|string|optional|内容摘要|
+|4|keyword|string|required|关键词，主要搜索依靠keyword，关键词之间用空格分割|
+|5|url|string|required|保存存储的视频地址|
