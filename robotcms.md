@@ -4,6 +4,7 @@
 - [ ] cms分类   --Sunny
 - [ ] cms信息类内容访问接口   --Sunny
 - [ ] cms系统部署   --Sunny
+- [ ] 类型查询接口  --Sunny
 - [ ] cms音频开发  --JinLong
 - [ ] cms音频访问接口  --JinLong
 - [ ] cms视频开发  --JinLong
